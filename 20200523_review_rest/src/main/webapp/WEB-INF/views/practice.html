@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NHN Forward HoL - TOAST UI Calendar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.css">
+    <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.css">
+    <link rel="stylesheet" type="text/css" href="./dist/tui-calendar.css">
+ </head>
+  <body>
+    <h1>TOAST UI Calendar</h1>
+    <button id="prevBtn">이전</button>
+    <!-- 이거 어느 이상으로는 못가게 조절해야하는데,,? 어떻게해아할까,,? -->
+    <button id="nextBtn">다음</button>
+     <!-- 이거 어느 이상으로는 못가게 조절해야하는데,,? 어떻게해아할까,,? -->
+    <button id="clear">전체삭제</button>
+	<!-- 아마 이쯤넣으면 되지않을까? 언제부터 언제인지 좀 알아야하지 않을까아?  -->
+	 <span id="renderRange" class="render-range">왜 달력안뒈?</span>
+    <!-- 캘린더 컨테이너 태그 작성 -->
+    <div id='calendar' style='height:800px;'></div>
+    
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://uicdn.toast.com/tui.code-snippet/v1.5.2/tui-code-snippet.min.js"></script>
+    <script src="https://uicdn.toast.com/tui.time-picker/v2.0.3/tui-time-picker.min.js"></script>
+    <script src="https://uicdn.toast.com/tui.date-picker/v4.0.3/tui-date-picker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.13/chance.min.js"></script>
+    <script src="./dist/tui-calendar.js"></script>
+    <script src="./js/practice.js"></script>
+
+  </body>
+</html>
