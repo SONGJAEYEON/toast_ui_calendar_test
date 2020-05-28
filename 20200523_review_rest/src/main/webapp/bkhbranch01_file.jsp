@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>아 헷갈려 ㅋㅋ <strong>bkhbranch01</strong>이요~</h3>
+	<h3>아 헷갈려 ㅋㅋ bkhbranch01입니다</h3>
 </body>
 </html>
